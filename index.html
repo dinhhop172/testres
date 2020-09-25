@@ -2016,17 +2016,13 @@
             var item1 = $('.carou1');
             var item2 = $('.carou2');
             var width = $(window).width();
-            setInterval(function() {
-                if (width >= 768 && width < 1200) {
-                    item1.css('display', 'none');
-                } else if (width >= 1200) {
-                    item1.css('display', 'block');
-                    item2.css('display', 'block');
-                } else {
-                    item1.css('display', 'none');
-                    item2.css('display', 'none');
-                }
-            });
+            if (width >= 768 && width < 1200) {
+                item1.css('display', 'none');
+            }
+            if (width < 768) {
+                item1.css('display', 'none');
+                item2.css('display', 'none');
+            }
         });
     });
 </script>
