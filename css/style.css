@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.anh {
+    background-color: black;
+    width: 3rem;
+    border-radius: 4px;
+}
+
+.nav-item>a {
+    color: white !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.color-red>a {
+    color: red !important;
+}
+
+.content-cart {
+    width: 17px;
+    height: 17px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 4px;
+    right: 67px;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+
+/* //////////////// */
+
+.ba-dong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* .main-hah {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.content-nha>h3 {
+    text-align: center;
+    font-weight: bold;
+} */
+
+.box>h5>a {
+    font-size: 16px;
+    color: rgb(105 105 105);
+}
+
+
+/* .row-nha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 24%;
+} */
+
+.mb-23 {
+    margin-bottom: 23px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.new-post::after {
+    content: "";
+    border: 1px solid #ccc;
+    width: 80px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 3px;
+}
+
+.font-18 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.font>p,
+.font>ul>li {
+    font-size: 14px;
+}
+
+.none-list {
+    list-style-type: none;
+}
+
+.none-list>li>a {
+    color: #999999;
+    font-size: 14px;
+}
+
+
+/* .carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 189px;
+} */
+
+.carousel-indicators {
+    bottom: -45px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
